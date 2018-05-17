@@ -5,3 +5,7 @@ form #address {
 form #bedrooms {
     background: green;
 }
+
+form #bathrooms {
+    background: red;
+}

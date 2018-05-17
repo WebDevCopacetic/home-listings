@@ -1,17 +1,17 @@
 form #address {
-    background: blue;
+    background: rgb(155, 168, 184);
     display: block;
     padding: 20px 20px;
 }
 
 form #bedrooms {
-    background: green;
+    background: rgb(155, 168, 184);
     display: block;
     padding: 20px 20px;
 }
 
 form #bathrooms {
-    background: red;
+    background: rgb(155, 168, 184);
     display: block;
     padding: 20px 20px;
 }

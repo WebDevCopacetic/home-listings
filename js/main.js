@@ -9,4 +9,18 @@ $form.on('submit', function (evt) {
     var addressValue = $address.val()
     var bedroomsValue = $bedrooms.val()
     var bathroomsValue = $bathrooms.val()
+
+    $("ul").append(`<li style="display:none">Address: ${addressValue} Bedrooms: ${bedroomsValue}  
+    Bedrooms: ${bathroomsValue}`)
+    $('li').last().fadeIn(2000)
+
+});
+
+// If user clicks anywhere on the list
+// 'this' refers to the specific thing within
+// that was clicked
+$list.on('click', 'li', function () {
+    $(this).fadeOut(function () {
+        $(this).remove()
+    })
 })
